@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopClickPower : MonoBehaviour
+public class ShopCostClickPowerUpgrade : MonoBehaviour
 {
+
+    public ClickerScript ClickerScript;
     // Start is called before the first frame update
     void Start()
     {
